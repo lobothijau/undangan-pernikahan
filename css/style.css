@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,300;1,400&family=Dancing+Script:wght@400;600;700&family=Playball&display=swap");
+
+.font-dancing {
+  font-family: "Dancing Script", cursive;
+}
+
+.font-playball {
+  font-family: "Playball", cursive;
+}
+
+* {
+  font-family: "Comic Neue", cursive;
+}
+
+.bg-berem {
+  background-color: #be4d33;
+}
+
+.bg-wakwak {
+  background-color: #f9efee;
+}
+
+.bg-fee {
+  background-color: #f5f3ee;
+}
+
+.bg-coklat {
+  background-color: #8b774e;
+}
+
+.bg-kulit {
+  background-color: #ed9b78;
+}
