@@ -13,26 +13,33 @@
 }
 
 .bg-berem {
-  background-color: #be4d33;
+  background-color: #8785a2;
 }
 
 .text-berem {
-  color: #be4d33;
+  color: #828191;
 }
 
 .bg-wakwak {
-  background-color: #f9efee;
+  background-color: #ffe2e2;
 }
 
 .bg-fee {
-  background-color: #f5f3ee;
-}
-
-.bg-coklat {
-  background-color: #8b774e;
+  background-color: #f6f6f6;
 }
 
 .bg-kulit {
-  background-color: #ed9b78;
+  background-color: #ffc7c7;
 }
 
+.fs-60 {
+  font-size: 60px;
+}
+
+.fs-45 {
+  font-size: 45px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
