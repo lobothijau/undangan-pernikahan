@@ -76,3 +76,10 @@ const x = setInterval(function () {
   }
 }, 1000);
 // waktu end
+
+// modal start
+window.onload = function () {
+  const button = document.getElementById("klikmodal");
+  button.click();
+};
+// modal end
