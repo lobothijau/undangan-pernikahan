@@ -51,3 +51,10 @@
 .scale:hover {
   transform: scale(1.05);
 }
+
+.norek {
+  width: 80px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}

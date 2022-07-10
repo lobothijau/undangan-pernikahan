@@ -50,7 +50,7 @@
                       </div>
                     </div>
                   </div>
-                  <a href="#" class="text-decoration-none btn text-white bg-berem mb-3 rounded-4 btn-outline-secondary">Save The Date</a>
+                  <p class="text-decoration-none btn text-white bg-berem mb-3 rounded-4 btn-outline-secondary">Save The Date</p>
                 </div>
               </div>
             </div>
@@ -96,16 +96,16 @@
             <p class="m-0 p-0">Tanpa mengurangi rasa hormat</p>
             <p class="m-0 p-0">Kami mengundang Bapak/ibu/Saudara/i serta kerabat sekalian untuk menghadiri acara pernikahan kami</p>
           </div>
-          <div class="col-lg-5 col-12 my-lg-4 my-3">
+          <div class="col-md-5 col-12 my-md-4 my-3">
             <img src="img/img8.jpg" class="rounded-circle shadow-lg border-white mb-3" alt="" width="200px" />
             <h1 class="font-dancing text-dark fs-45">Aku</h1>
             <p class="m-0 p-0">Putri Pertama Bapak Aku</p>
             <p class="m-0 p-0">& Ibu Aku</p>
           </div>
-          <div class="col-lg-2 col-12 m-lg-auto my-5">
+          <div class="col-md-2 col-12 m-md-auto my-5">
             <h1 class="m-0 p-0 font-dancing">&</h1>
           </div>
-          <div class="col-lg-5 col-12 my-lg-4 my-3">
+          <div class="col-md-5 col-12 my-md-4 my-3">
             <img src="img/img9.jpg" class="rounded-circle shadow-lg border-white mb-3" alt="" width="200px" />
             <h1 class="font-dancing text-dark fs-45">Kamu</h1>
             <p class="m-0 p-0">Putra Pertama Bapak Kamu</p>
@@ -154,7 +154,7 @@
     <section class="bg-berem">
       <div class="container py-5">
         <div class="row text-center">
-          <div class="col-12 py-5">
+          <div class="col-md-6 col-12 py-5">
             <div class="card p-3 shadow bg-fee">
               <h1 class="font-dancing mb-3 fs-40">Akad Nikah</h1>
               <p class="fw-bold p-0 m-0">Senin, 01 Agustus 2022</p>
@@ -162,7 +162,7 @@
               <p class="m-0 p-0">Jawa Barat, Indonesia</p>
             </div>
           </div>
-          <div class="col-12 py-5">
+          <div class="col-md-6 col-12 py-5">
             <div class="card p-3 shadow bg-fee">
               <h1 class="font-dancing mb-3 fs-40">Resepsi</h1>
               <p class="fw-bold p-0 m-0">Senin, 01 Agustus 2022</p>
@@ -367,25 +367,25 @@
             </div>
             <p class="p-0 m-0 fw-bold">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.</p>
           </div>
-          <div class="col-lg-6 mb-3">
+          <div class="col-md-6 mb-3">
             <div class="card bg-fee rounded-3 shadow p-3">
               <img src="img/Bank_Central_Asia.svg" height="50px" alt="" class="mx-auto" />
               <hr />
-              <p>No. Rekening : 123456789</p>
+              <p>No. Rekening : <input type="text" value="123456789" class="bg-fee norek" id="rek1" readonly /></p>
               <p>A/n Me</p>
               <div>
-                <button class="btn bg-berem text-white btn-outline-secondary rounded-pill w-25">Salin</button>
+                <button class="btn bg-berem text-white btn-outline-secondary rounded-pill w-25" id="salin1">Salin</button>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 mb-3">
+          <div class="col-md-6 mb-3">
             <div class="card bg-fee rounded-3 shadow p-3">
               <img src="img/BANK_BRI_logo.svg" height="50px" alt="" class="mx-auto" />
               <hr />
-              <p>No. Rekening : 123456789</p>
+              <p>No. Rekening : <input type="text" value="123456789" class="bg-fee norek" id="rek2" readonly /></p>
               <p>A/n You</p>
               <div>
-                <button class="btn bg-berem text-white btn-outline-secondary rounded-pill w-25">Salin</button>
+                <button class="btn bg-berem text-white btn-outline-secondary rounded-pill w-25" id="salin2">Salin</button>
               </div>
             </div>
           </div>
@@ -406,11 +406,11 @@
             <p class="text-sm">Cuci Tangan</p>
           </div>
           <div class="col-4">
-            <img src="img/pakai-masker.png"  class="scale"width="100px" alt="" />
+            <img src="img/pakai-masker.png" class="scale" width="100px" alt="" />
             <p class="text-sm">Gunakan Masker</p>
           </div>
           <div class="col-4">
-            <img src="img/jaga-jarak-2.png"  class="scale"width="100px" alt="" />
+            <img src="img/jaga-jarak-2.png" class="scale" width="100px" alt="" />
             <p class="text-sm">Jaga Jarak</p>
           </div>
         </div>
@@ -487,6 +487,7 @@
     </footer>
     <!-- footer end -->
     <script src="js/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
