@@ -43,3 +43,11 @@
 .fs-40 {
   font-size: 40px;
 }
+
+.scale {
+  overflow: hidden;
+  transition: 0.5s;
+}
+.scale:hover {
+  transform: scale(1.05);
+}

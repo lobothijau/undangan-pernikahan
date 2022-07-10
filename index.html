@@ -13,7 +13,7 @@
   <body>
     <!-- header start -->
     <header class="bg-wakwak">
-      <div class="d-flex justify-content-center" style="background-image: url(img/img7.png); background-size: cover; height: 120vh">
+      <div class="d-flex justify-content-center" style="background-image: url(img/img7.png); background-size: cover; height: 100vh">
         <div class="container mt-auto">
           <div class="row text-center">
             <div class="col-12 mt-5">
@@ -21,7 +21,7 @@
               <h1 class="font-dancing fs-60">Aku & Kamu</h1>
             </div>
             <div class="col-12">
-              <p>Minggu, 01 Agustus 2022</p>
+              <p>Senin, 01 Agustus 2022</p>
               <div class="row justify-content-center">
                 <div class="col-md-8">
                   <div class="row mb-3">
@@ -89,23 +89,23 @@
     <!-- calon start -->
     <section class="bg-wakwak">
       <div class="container py-5">
-        <div class="row text-center">
+        <div class="row text-center justify-content-center">
           <div class="col-12 mb-3">
             <img src="img/bismillah.png" alt="" width="200px" class="mb-3" />
             <h5 class="mb-3">Assalamualaikum Wr. Wb.</h5>
             <p class="m-0 p-0">Tanpa mengurangi rasa hormat</p>
             <p class="m-0 p-0">Kami mengundang Bapak/ibu/Saudara/i serta kerabat sekalian untuk menghadiri acara pernikahan kami</p>
           </div>
-          <div class="col-12 py-3">
+          <div class="col-lg-5 col-12 my-lg-4 my-3">
             <img src="img/img8.jpg" class="rounded-circle shadow-lg border-white mb-3" alt="" width="200px" />
             <h1 class="font-dancing text-dark fs-45">Aku</h1>
             <p class="m-0 p-0">Putri Pertama Bapak Aku</p>
             <p class="m-0 p-0">& Ibu Aku</p>
           </div>
-          <div class="col-12 py-5">
+          <div class="col-lg-2 col-12 m-lg-auto my-5">
             <h1 class="m-0 p-0 font-dancing">&</h1>
           </div>
-          <div class="col-12 py-3">
+          <div class="col-lg-5 col-12 my-lg-4 my-3">
             <img src="img/img9.jpg" class="rounded-circle shadow-lg border-white mb-3" alt="" width="200px" />
             <h1 class="font-dancing text-dark fs-45">Kamu</h1>
             <p class="m-0 p-0">Putra Pertama Bapak Kamu</p>
@@ -157,7 +157,7 @@
           <div class="col-12 py-5">
             <div class="card p-3 shadow bg-fee">
               <h1 class="font-dancing mb-3 fs-40">Akad Nikah</h1>
-              <p class="fw-bold p-0 m-0">Minggu, 1 Agustus 2022</p>
+              <p class="fw-bold p-0 m-0">Senin, 01 Agustus 2022</p>
               <p class="m-0 p-0">Pukul 09.00 WIB</p>
               <p class="m-0 p-0">Jawa Barat, Indonesia</p>
             </div>
@@ -165,7 +165,7 @@
           <div class="col-12 py-5">
             <div class="card p-3 shadow bg-fee">
               <h1 class="font-dancing mb-3 fs-40">Resepsi</h1>
-              <p class="fw-bold p-0 m-0">Minggu, 1 Agustus 2022</p>
+              <p class="fw-bold p-0 m-0">Senin, 01 Agustus 2022</p>
               <p class="m-0 p-0">Pukul 10.00 WIB</p>
               <p class="m-0 p-0">Jawa Barat, Indonesia</p>
             </div>
@@ -402,15 +402,15 @@
             <p class="fw-bold">Guna mencegah penyebaran Covid-19, diharapkan bagi tamu undangan untuk mematuhi Protokol Kesehatan di bawah ini :</p>
           </div>
           <div class="col-4">
-            <img src="img/cuci-tangan-2.png" width="100px" alt="" />
+            <img src="img/cuci-tangan-2.png" class="scale" width="100px" alt="" />
             <p class="text-sm">Cuci Tangan</p>
           </div>
           <div class="col-4">
-            <img src="img/pakai-masker.png" width="100px" alt="" />
+            <img src="img/pakai-masker.png"  class="scale"width="100px" alt="" />
             <p class="text-sm">Gunakan Masker</p>
           </div>
           <div class="col-4">
-            <img src="img/jaga-jarak-2.png" width="100px" alt="" />
+            <img src="img/jaga-jarak-2.png"  class="scale"width="100px" alt="" />
             <p class="text-sm">Jaga Jarak</p>
           </div>
         </div>
@@ -433,7 +433,7 @@
                   <input type="text" name="nama" placeholder="Nama" class="form-control" required />
                 </div>
                 <div class="mb-3">
-                  <textarea name="ucapan" placeholder="ucapan" rows="4" class="form-control" required></textarea>
+                  <textarea name="ucapan" placeholder="Ucapan" rows="4" class="form-control" required></textarea>
                 </div>
                 <div class="mb-3">
                   <select name="konfirmasi" class="form-select" required>
@@ -488,32 +488,7 @@
     <!-- footer end -->
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $(".owl-carousel").owlCarousel({
-          loop: true,
-          nav: true,
-          margin: 15,
-          autoplay: true,
-          autoplayhoverpause: true,
-          autoplaytimeout: 500,
-          responsive: {
-            0: {
-              items: 1,
-              dots: false,
-            },
-            600: {
-              items: 2,
-              dots: false,
-            },
-            1000: {
-              items: 3,
-              dots: false,
-            },
-          },
-        });
-      });
-    </script>
+    <script src="js/main.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
