@@ -79,7 +79,6 @@ const x = setInterval(function () {
 
 // modal start
 window.onload = function () {
-  const button = document.getElementById("klikmodal");
-  button.click();
+  document.getElementById("klikmodal").click();
 };
 // modal end
