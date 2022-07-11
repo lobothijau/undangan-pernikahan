@@ -86,4 +86,7 @@ const lagu = document.getElementById("lagu");
 function playAudio() {
   lagu.play();
 }
+function stopAudio() {
+  lagu.pause();
+}
 // modal end
