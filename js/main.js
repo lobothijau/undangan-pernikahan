@@ -93,6 +93,21 @@ function stopAudio() {
 }
 // lagu end
 
-// aos start
+// undngan start
+function GetURLParameter(sParam) {
+  var sPageURL = window.location.search.substring(1);
+  var sURLVariables = sPageURL.split("&");
+  for (var i = 0; i < sURLVariables.length; i++) {
+    var sParameterName = sURLVariables[i].split("=");
+    if (sParameterName[0] == sParam) {
+      return sParameterName[1];
+    }
+  }
+}
+var nama = GetURLParameter("nama");
+document.getElementById("nama").innerHTML = nama;
+var bk = GetURLParameter("bk");
+document.getElementById("bk").innerHTML = bk;
 
-// aos end
+
+// undngan end
