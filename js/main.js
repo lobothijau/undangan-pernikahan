@@ -81,7 +81,9 @@ const x = setInterval(function () {
 window.onload = function () {
   document.getElementById("klikmodal").click();
 };
+// modal end
 
+// lagu start
 const lagu = document.getElementById("lagu");
 function playAudio() {
   lagu.play();
@@ -89,4 +91,8 @@ function playAudio() {
 function stopAudio() {
   lagu.pause();
 }
-// modal end
+// lagu end
+
+// aos start
+
+// aos end
