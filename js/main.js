@@ -58,7 +58,7 @@ salin2.onclick = () => {
 // copy end
 
 // waktu start
-const countDownDate = new Date("Aug 1, 2022 00:00:00").getTime();
+const countDownDate = new Date("Aug 1, 2023 00:00:00").getTime();
 const x = setInterval(function () {
   const now = new Date().getTime();
   const distance = countDownDate - now;
