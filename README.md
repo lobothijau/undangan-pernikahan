@@ -7,7 +7,7 @@
 
 ## Description
 
-Website undangan ini merupakan website mengenai tampilan undangan mulai dari nama pnerima undangan, coutdown waktu pernikahan, nama mempelai, kisah cinta, hadiah, salam sapa, galery dengan mengunakan teknologi **HTML (Hypertext Markup Language)**, **CSS (Cascading Style Sheet)**, **Javascript**, **BOOSTRAP CSS**, **Ajax Jquery**, **OWL Carousel**, dan **AOS Animation**
+Website undangan ini merupakan website mengenai tampilan undangan mulai dari nama pnerima undangan, coutdown waktu pernikahan, nama mempelai, kisah cinta, hadiah, salam sapa, galery yang diringi menggunakan lagu dengan mengunakan teknologi **HTML (Hypertext Markup Language)**, **CSS (Cascading Style Sheet)**, **Javascript**, **BOOSTRAP CSS**, **Ajax Jquery**, **OWL Carousel**, dan **AOS Animation**
 
 ## Requirement
 
