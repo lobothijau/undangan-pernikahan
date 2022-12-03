@@ -45,18 +45,18 @@
   <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
       <div class="modal-content">
-        <div class="modal-body bg-wakwak">
-          <div class="row justify-content-center text-center h-100">
-            <div class="col-md-6 col-12 my-md-auto mt-3">
-              <img src="img/img3.jpg" alt="" width="230px" class="rounded-pill shadow-lg" />
+        <div class="modal-body bg-wakwak p-0">
+          <div class="row justify-content-center mt-0 text-center h-100" id="front-image-container">
+            <div class="col-md-6 col-12" id="front-image">
+              <img src="img/img3.jpg" alt=""/>
             </div>
-            <div class="col-md-6 col-12 my-md-auto">
-              The Wedding Of
-              <h1 class="font-dancing fs-60">Bagus Aji Santoso, S.Pd. <br />&<br /> Asha Aprilia Putri</h1>
-              <p>Senin, 01 Agustus 2022</p>
+            <div class="flex col-md-6 col-12 mt-auto mb-auto">
+              <p><small>The Wedding of</small></p>
+              <h1 class="font-dancing fs-60">Asha Aprilia Putri <br/>&<br /> Bagus Aji Santoso, S.Pd.</h1>
+              <p class="mt-3">Sabtu, 31 Desember 2022</p>
               <hr class="border-secondary w-50 mx-auto" />
               <p class="mb-1">Kepada Bapak/Ibu/Saudara/i</p>
-              <p class="mb-1"><span id="nama"></span></p>
+              <p class="mb-2 mt-2"><span class="fw-semibold h4" id="nama"></span></p>
               <p class="mb-2">di Tempat</p>
               <button type="button" class="btn bg-berem btn-outline-secondary text-white rounded-4"
                 data-bs-dismiss="modal" onclick="playAudio()">
@@ -82,8 +82,8 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-12 mt-5">
-            The Wedding Of
-            <h1 class="font-dancing fs-60">Bagus & Asha</h1>
+            The Wedding of
+            <h1 class="font-dancing fs-60">Asha & Bagus</h1>
             <p>Sabtu, 31 Desember 2022</p>
           </div>
           <div class="col-12">
@@ -128,7 +128,7 @@
     <div class="container py-5">
       <div class="row text-center fw-bold justify-content-center" data-aos="zoom-in" data-aos-duration="1300">
         <div class="col-lg-9 col-md-11 col-12">
-          <p>
+          <p class="fw-light">
             "Dan diantara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu
             sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan
             sayang. Sungguh,
@@ -160,23 +160,23 @@
           <img src="img/bismillah.png" alt="" width="200px" class="mb-3" />
           <h5 class="mb-3">Assalamualaikum Wr. Wb.</h5>
           <p class="m-0 p-0">Tanpa mengurangi rasa hormat</p>
-          <p class="m-0 p-0">Kami mengundang Bapak/ibu/Saudara/i serta kerabat sekalian untuk menghadiri acara
+          <p class="m-0 p-0">Kami mengundang Bapak/Ibu/Saudara/i serta kerabat sekalian untuk menghadiri acara
             pernikahan kami</p>
+        </div>
+        <div class="col-md-5 col-12 my-md-4 my-3" data-aos="zoom-in" data-aos-duration="1300" data-aos-delay="1100">
+          <img src="img/img9.jpg" class="rounded-circle shadow-lg border-white mb-3" alt="" width="200px" />
+          <h1 class="font-dancing text-dark fs-45">Asha Aprilia Putri</h1>
+          <p class="m-0 p-0">Putri Bungsu</p>
+          <p class="m-0 p-0">Bapak Asep Suryadi & Ibu Lia Yuliawati</p>
+        </div>
+        <div class="col-md-2 col-12 m-md-auto my-5" data-aos="zoom-in" data-aos-duration="1300" data-aos-delay="600">
+          <h1 class="m-0 p-0 font-dancing">&</h1>
         </div>
         <div class="col-md-5 col-12 my-md-4 my-3" data-aos="zoom-in" data-aos-duration="1300" data-aos-delay="500">
           <img src="img/img8.jpg" class="rounded-circle shadow-lg border-white mb-3" alt="" width="200px" />
           <h1 class="font-dancing text-dark fs-45">Bagus Aji Santoso, S.Pd.</h1>
           <p class="m-0 p-0">Putra Pertama</p>
           <p class="m-0 p-0">Bapak Susanto, S.Pd. & Ibu Eni Ruminingsih, S.Pd.SD</p>
-        </div>
-        <div class="col-md-2 col-12 m-md-auto my-5" data-aos="zoom-in" data-aos-duration="1300" data-aos-delay="600">
-          <h1 class="m-0 p-0 font-dancing">&</h1>
-        </div>
-        <div class="col-md-5 col-12 my-md-4 my-3" data-aos="zoom-in" data-aos-duration="1300" data-aos-delay="1100">
-          <img src="img/img9.jpg" class="rounded-circle shadow-lg border-white mb-3" alt="" width="200px" />
-          <h1 class="font-dancing text-dark fs-45">Asha Aprilia Putri</h1>
-          <p class="m-0 p-0">Putri Terakhir</p>
-          <p class="m-0 p-0">Bapak Asep Suryadi & Ibu Lia Yuliawati</p>
         </div>
       </div>
     </div>
@@ -448,15 +448,13 @@
           </div>
         </div>
         <div class="col-lg-8 col-md-10 col-12 mb-5" data-aos="zoom-in" data-aos-duration="1300" data-aos-delay="500">
-          <p class="p-0 m-0 fw-bold">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi
-            adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.</p>
+          <p class="p-0 m-0">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami.</p>
         </div>
         <div class="col-md-6 mb-3 blur" data-aos="zoom-in" data-aos-duration="1300" data-aos-delay="1000">
           <div class="card bg-fee rounded-3 shadow p-3">
             <img src="img/bni.png" height="50px" alt="" class="mx-auto" />
             <hr />
-            <p>No. Rekening : <input type="text" value="1368855496" class="bg-fee norek" id="rek1" readonly /></p>
-            <p>A/n Asha Aprilia Putri</p>
+            <p><span><input type="text" value="1368855496" class="bg-fee norek" id="rek1" readonly /></span> a/n Asha Aprilia Putri</p>
             <div>
               <button class="btn bg-berem text-white btn-outline-secondary rounded-pill" id="salin1">
                 <div class="mx-4">
@@ -484,8 +482,8 @@
       <div class="row text-center justify-content-center">
         <div class="col-lg-8 col-md-10 col-12 mb-5" data-aos="zoom-in" data-aos-duration="1300" data-aos-delay="1750">
           <h1 class="font-dancing fs-40">Protokol Kesehatan</h1>
-          <p class="fw-bold">Guna mencegah penyebaran Covid-19, diharapkan bagi tamu undangan untuk mematuhi Protokol
-            Kesehatan di bawah ini :</p>
+          <p class="">Guna mencegah penyebaran Covid-19, diharapkan bagi tamu undangan untuk mematuhi Protokol
+            Kesehatan di bawah ini:</p>
         </div>
         <div class="col-lg-8 col-md-10 col-12">
           <div class="row justify-content-center" data-aos="zoom-in" data-aos-duration="1300" data-aos-delay="2000">

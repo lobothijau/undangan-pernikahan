@@ -89,7 +89,7 @@ function GetURLParameter(sParam) {
   }
 }
 var nama = GetURLParameter("nama");
-document.getElementById("nama").innerHTML = decodeURI(nama) ?? "-";
+document.getElementById("nama").innerHTML = nama ? decodeURI(nama) : "Dirimu";
 
 // hover blur effect
 $('.blur').mouseenter(function(){
