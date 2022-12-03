@@ -69,6 +69,11 @@
   #front-image {
     display: none;
   }
+  #front-text {
+    padding-top: 40%;
+    height: 100vh;
+    background-image: url(../img/img3-foreground.jpg); background-size: cover;
+  }
 }
 
 #front-image img {
