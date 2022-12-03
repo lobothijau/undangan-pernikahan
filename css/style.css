@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,300;1,400&family=Dancing+Script:wght@400;600;700&family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&family=Dancing+Script:wght@400;600;700&family=Playball&display=swap");
 
 .font-dancing {
   font-family: "Dancing Script", cursive;
@@ -9,7 +9,7 @@
 }
 
 * {
-  font-family: "Comic Neue", cursive;
+  font-family: "Open Sans", cursive;
 }
 
 .bg-berem {
