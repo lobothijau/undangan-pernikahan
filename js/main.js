@@ -33,22 +33,6 @@ salin1.onclick = () => {
   rek1.select(); // Selects the text inside the input
   document.execCommand("copy"); // Simply copies the selected text to clipboard
   Swal.fire({
-    //displays a pop up with sweetalert
-    icon: "success",
-    title: "No. Rekening Berhasil di Salin",
-    showConfirmButton: false,
-    timer: 1000,
-  });
-};
-
-const rek2 = document.getElementById("rek2");
-const salin2 = document.getElementById("salin2");
-
-salin2.onclick = () => {
-  rek2.select(); // Selects the text inside the input
-  document.execCommand("copy"); // Simply copies the selected text to clipboard
-  Swal.fire({
-    //displays a pop up with sweetalert
     icon: "success",
     title: "No. Rekening Berhasil di Salin",
     showConfirmButton: false,
